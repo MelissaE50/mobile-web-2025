@@ -1,7 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body{
     background-color: #AEBFBE;
     font-family: "Playfair Display", serif;
 }
 header.primary{
 background: #D7D9D7;
+overflow: auto;
 }
+
+/*add three media queries here to demonstrate knowledge of grid usage
