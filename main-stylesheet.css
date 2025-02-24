@@ -8,12 +8,17 @@ html {
   }
 
 body{
-    background-color: #AEBFBE;
+    background-color: #d6a5c1;
     font-family: "Playfair Display", serif;
 }
 header.primary{
-background: #D7D9D7;
+background: #b0cdee;
 overflow: auto;
 }
 
-/*add three media queries here to demonstrate knowledge of grid usage
+/*add three media queries here to demonstrate knowledge of grid usage*/
+@media screen and (max-width:600px){
+  .row{
+    grid-template-columns: 1fr;
+  }
+}
