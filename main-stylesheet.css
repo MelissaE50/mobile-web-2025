@@ -11,7 +11,7 @@ body{
   text-align: center;
   background-color: #d6a5c1;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 16px;
 	line-height: 1.5em;
 }
 
@@ -21,21 +21,21 @@ body{
 	margin-left: auto;
 	text-align: left;
 	background-color: #f8dced;
-	margin-top: 20px;
+	margin-top: 10px;
 	border: 2px solid #CCC;
 }
 
-#header h1 {
-  color: #ffffff; 
+#header h1 { 
+  text-align: center;
+  color:#ffffff;
+  text-shadow: 2px 2px #000000;
+  padding: 6em 2em;
   width: 800px;
-  height: 340px;
-  display: block;
+  height: 240px;
   background-image: url("infoTechPic.jpg");
   margin: 0 auto;
-  text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-
 }
 
 #footer h6 {
