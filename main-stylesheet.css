@@ -8,21 +8,50 @@ html {
   }
 
 body{
-    background-color: #d6a5c1;
-    font-family: "Playfair Display", serif;
+  text-align: center;
+  background-color: #d6a5c1;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+	line-height: 1.5em;
 }
 
-header.primary{
-  
-background: #b0cdee;
-overflow: auto;
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #f8dced;
+	margin-top: 20px;
+	border: 2px solid #CCC;
+}
+
+#header h1 {
+  color: #ffffff; 
+  width: 800px;
+  height: 340px;
+  display: block;
+  background-image: url("infoTechPic.jpg");
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 
 
-/*add three media queries here to demonstrate knowledge of grid usage*/
+
+
+/*add three media queries here to demonstrate knowledge of grid usage
 @media screen and (max-width:600px){
   .row{
     grid-template-columns: 1fr;
   }
-}
+}*/
