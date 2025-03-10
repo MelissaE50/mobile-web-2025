@@ -45,7 +45,7 @@
       "jobTitle": "Sales Associate",
       "startDate": "2021-11-05",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit...",
-      "url": "http://link-to-company.com",
+      "url": "http://homedepot.communications",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Cabot, AR"
@@ -58,7 +58,6 @@
       "startDate": "1998-10-01",
       "endDate": "2021-11-01",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit...",
-      "url": "http://link-to-company.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Long Beach, CA"
@@ -91,6 +90,8 @@
 </script>
 
   <title>Resume</title>
+  <link href="schema-stylesheet.css" rel="stylesheet">
+
 </head>
 <body>
   <header class="container" id="top">
@@ -108,9 +109,9 @@
 <main class="container">
   <h1 class="page-title">Melissa Ecker</h1>
   <section id="about">
-    <h2>Personal Details</h2>
+    <h2 class="visuallyhidden">Personal Details</h2>
     <div class="bio">
-    <img src="https://placehold.co/600x600?text=Headshot" alt="Your Name">
+    <img src="melissaEckerHeadshot3.JPG" alt="Your Name">
     <p>Aspiring software/database developer with twenty-plus years of legal experience. Embarking on a second career. Seeking to utilize my unique set of skills combining litigation, business, and technology to contribute to the success of your organization. Possess an A.S. in Computer Information Systems and certificates in Artificial Intelligence in Cybersecurity, Ethical Hacking, and Threat Hunting. Currently pursuing a Bachelor of Science in Information Science at University of Arkansas – Little Rock.</p>
     </div>  
     <dl class="details">
@@ -140,8 +141,8 @@
     </dl>
     <ul class="related-links">
       <li><a href="https://github.com/MelissaE50"> github</a></li>
-      <li><a href="http://linkedin.com/profile">linkedin</a></li>
-      <li><a href="resume.pdf" download>pdf resume</a></li>
+      <li><a href="https://www.linkedin.com/in/melissa-ecker1/">linkedin</a></li>
+      <li><a href="melissaEckerResume.pdf" download>pdf resume</a></li>
     </ul>
   </section>
   <section id="skills">
@@ -152,7 +153,10 @@
       <li class="skill">Java</li>
       <li class="skill">C++</li>
       <li class="skill">Python</li>
-      <li class="skill">SQL</li>
+      <li class="skill">CSS</li>
+      <li class="skill">Microsoft Office</li>
+      <li class="skill">SQL and Relational Database Systems</li>
+
     </ul>
   </section>
   <section id="experience">
@@ -162,12 +166,13 @@
       <div>
         <span>Home Depot</span>
         <span>November 2021 - Present</span>
-        <p>•	Track and analyze department sales and inventory.
-          •	Utilize proprietary business software and applications.
-          •	Supervise and train new associates.
-          •	Provide customer service and project advice.
-          •	Member of the Voice of Associates as an advocate and liaison between peers and upper management.
-          </p>
+        <ul>
+          <li>Track and analyze department sales and inventory</li>
+          <li>Utilize proprietary business software and applications</li>
+          <li>Supervise and train new associates</li>
+          <li>Provide customer service and project advice</li>
+          <li>Member of the Voice of Associates as an advocate and liaison between peers and upper management</li>
+        </ul>
         <span>
           <a href="https://www.homedepot.com/">Company URL</a>
           <span>Arkansas, USA</span>
@@ -178,20 +183,20 @@
       <h3>Legal Assistant/Notary Public</h3>
       <span>
           <span>Law Firm of Kaiser & Swindells</span>
-      <a href="http://link-to-company.com">Company URL</a>
-      <span>Long Beach, CA</span>
+          <span>Long Beach, CA</span>
       </span>
       <div>
       <span>October 1999</span> - 
       <span>November 2021</span>
       </div>
-      <p>•	Prepare legal documents and maintain court and discovery calendar.
-        •	Evaluate cases and perform legal research.
-        •	Monitor deadlines, subpoena records, and schedule hearings and depositions.
-        •	Maintain client database.
-        •	Communicate tactfully with courts including clerks and judges.
-        •	Update clients via phone, email, and written communications.
-        </p>
+      <ul>
+        <li>Prepare legal documents and maintain court and discovery calendar</li>
+        <li>Evaluate cases and perform legal research</li>
+        <li>Monitor deadlines, subpoena records, and schedule hearings and depositions</li>
+        <li>Maintain client database</li>
+        <li>Communicate tactfully with courts including clerks and judges</li>
+        <li>Update clients via phone, email, and written communications</li>
+      </ul>
     </article>
   </section>
   <section id="education">
@@ -209,6 +214,7 @@
     </article>
   </section>
 </main>
+<script src="jsonld-styles.js"></script>
 <!-- Footer -->
 <footer>
   <div id="copyright">
