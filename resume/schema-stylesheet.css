@@ -230,3 +230,77 @@ nav {
       ;
   }
   
+
+
+
+  /*----------------------Media Queries-----------------------*/
+
+@media screen and (min-width:768px){
+  
+  header.container{
+  max-width:900px;
+  }
+  main.container{
+  max-width:900px;
+  grid-template-columns: 36.5% auto;  
+  grid-template-areas:
+    "title title"
+    "about about"
+    "skills experience"
+    ". education"
+    ;  
+  } 
+  
+#about{
+  display:grid;
+  gap:2em;
+  grid-template-columns: 300px 1fr auto;
+  grid-template-areas:
+    "bio details details"
+    "related related related";
+}
+.bio{
+  grid-area:bio;
+}
+.details{
+  grid-area:details;
+}
+  
+ .related-links{
+  grid-area:related;
+  border-bottom:1px solid #999;
+  padding-bottom:50px
+} 
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------Edge Case Tweaks-----------------------*/
+
+@media only screen and (max-width: 460px) {
+  .related-links li a svg{display:none;}
+  
+}
+
+@media only screen and (max-width: 395px) {
+.related-links{
+flex-direction:column;
+  }
+  
+.related-links a{
+display:block;
+  }  
+  
+  .related-links li a svg{display:inline-block;}
+  
+}
+  
