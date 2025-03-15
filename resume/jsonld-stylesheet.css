@@ -1,9 +1,16 @@
 /* CSS Custom Properties */
 
 :root{
-  --main-bg-color: #9fbbf7;
+  --main-bg-color: #8d9bb9;
   --primary-type-color: #222222;
-  --accent-color-1: #5964f3;
+  --accent-color-1: #9395af;
+}
+
+/* dark mode */
+
+:root {
+    --color:#333333;
+    --bg-color:#ffffff;
 }
 
 /* ------ Box Sizing -------*/
@@ -99,7 +106,7 @@ nav a:link, nav a:visited {
   border: 1px solid #000;
   text-align: center;
   text-decoration: none;
-  color: #222222;
+  color: #4d4b4b;
   text-transform: uppercase;
   font-size: 0.75em;
   background: rgba(0, 0, 0, 0.65);
@@ -189,8 +196,6 @@ dd {
   background: rgba(0, 0, 0, 0.95);
 }
 
-#skills {
-}
 #skills li {
 list-style-type: square;
 }
