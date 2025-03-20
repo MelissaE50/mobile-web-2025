@@ -1,9 +1,23 @@
 /* CSS Custom Properties */
 
+/*html {
+  --s: 18px; /* control the size*/
+  /*--c1: #dadad7;
+  --c2: #b4b3f4;
+  --c3: #bdbdb7;
+  
+  --c:#0000 48%,var(--c1) 0 52%,#0000 0;
+  background:
+    linear-gradient(-45deg,var(--c)),linear-gradient( 45deg,var(--c)),
+    repeating-conic-gradient(from 45deg,var(--c2) 0 25%,var(--c3) 0 50%);
+  background-size: var(--s) var(--s);
+}*/
+
 :root{
   --main-bg-color: #8d9bb9;
-  --primary-type-color: #222222;
-  --accent-color-1: #9395af;
+  --primary-type-color: #222222; 
+  --accent-color-1: #282931;
+  
 }
 
 /* dark mode */
@@ -88,7 +102,18 @@ color: var(--primary-type-color);
 
 nav {
   padding: 1px;
-}
+    --s: 18px; /* control the size*/
+    --c1: #dadad7;
+    --c2: #b4b3f4;
+    --c3: #bdbdb7;
+    
+    --c:#0000 48%,var(--c1) 0 52%,#0000 0;
+    background:
+      linear-gradient(-45deg,var(--c)),linear-gradient( 45deg,var(--c)),
+      repeating-conic-gradient(from 45deg,var(--c2) 0 25%,var(--c3) 0 50%);
+    background-size: var(--s) var(--s);
+  }
+
 
 nav ul {
   display: grid;
@@ -324,3 +349,8 @@ display:block;
   
 }
   
+/* media query for tablet view*/
+
+
+
+/* media query for desktop view*/
