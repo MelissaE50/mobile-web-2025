@@ -62,7 +62,10 @@ body {
 
 /* ------ Fluid Images ------- */
 img {
-  max-width: 100%; /*Makes sure image never gets larger than the available space*/
+  border-radius: 50%;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right:auto; /*Makes sure image never gets larger than the available space*/
 }
 
 /* ------ Utility Classes  -------*/
@@ -102,7 +105,7 @@ color: var(--primary-type-color);
 
 nav {
   padding: 1px;
-    --s: 18px; /* control the size*/
+    --s: 20px; /* control the size*/
     --c1: #8d9bb9;
     --c2: #9da7cf;
     --c3: #aaadc7;
@@ -152,7 +155,7 @@ main h1 {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   font-variant: small-caps;
 }
 main h1:before, /*pseudo elements, injecting content into the document, lines on either side of name*/
@@ -160,7 +163,7 @@ main h1:after {
   background-color: var(--accent-color-1);
   content: "\a0";
   flex-grow: 1;
-  height: 1px;
+  height: 1.5px;
   position: relative; /*to top of box*/
   top: 1.6rem;
 }
@@ -175,19 +178,19 @@ dl {
   display: grid;
   /*shorthand*/
   grid-template: repeat(8, auto) / 8em 1fr;
-  font-size:.9rem;
+  font-size:1rem;
 }
 
 dt {
   font-weight: 800;
   grid-column: 1;
-  padding: 10px 0;
+  padding: 20px 0;
   border-bottom: 1px solid var(--accent-color-1);
 }
 dd {
   margin: 0;
   grid-column: 2;
-  padding: 10px 0;
+  padding: 20px 0;
   border-bottom: 1px solid var(--accent-color-1);
 }
 
@@ -272,8 +275,8 @@ main.container{
   grid-template-areas:
     "title"
     "about"
-    "education"
     "experience"
+    "education"
     "skills"
     "volunteer"
     ;
@@ -283,7 +286,6 @@ main.container{
 /*----------------------Media Queries-----------------------*/
 
 /* media query for mobile view*/
-
 
 @media screen and (min-width:320px){
   
@@ -296,8 +298,8 @@ main.container{
   grid-template-areas:
     "title title"
     "about about"
-    "skills experience"
-    "volunteer education"
+    "skills education"
+    "volunteer experience"
     ;  
   } 
   
