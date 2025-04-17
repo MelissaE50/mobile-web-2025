@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Demo</title>
+    <link rel="stylesheet" href="videoDemo.css">
+
+  </head>
+  <body>
+
+<div class="video-container">
+    <video id="myVideo" src="videos/hudson-shelter-falls.mp4"></video>
+  
+    <div class="controls">
+      <button id="playPause" aria-label="Play">▶️</button>
+      <input type="range" id="seek" value="0" step="0.01" aria-label="Seek bar">
+      <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+  
+      <button id="muteToggle" aria-label="Mute">🔊</button>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="Volume slider">
+  
+      <button id="fullscreenToggle" aria-label="Toggle fullscreen">⛶</button>
+    </div>
+  </div>
+  <script src="videoDemo.js">
+
+  </script>
+  </body>
+</html>
