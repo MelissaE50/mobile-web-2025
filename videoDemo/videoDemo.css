@@ -19,16 +19,16 @@
     justify-content: space-between;
     gap: 8px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.75);
-    color: #fff;
+    background: slategrey;
+    color: pink;
     font-size: 14px;
   }
   
   .controls button {
     background: none;
     border: none;
-    color: white;
-    font-size: 16px;
+    color: pink;
+    font-size: 20px;
     cursor: pointer;
   }
   
