@@ -1,0 +1,15 @@
+.audio-container {
+    position: relative;
+    max-width: 720px;
+    margin: 20px auto;
+    background: blueviolet;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  audio {
+    width: 100%;
+    display: block;
+  }
+  
+  
