@@ -60,6 +60,15 @@ body {
   
 }
 
+/* ------ Light/Dark Mode Preference -------*/
+body {
+  --bg-color: white;
+  --text-color: black;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
 /* ------ Fluid Images ------- */
 img {
   border-radius: 50%;
@@ -425,5 +434,11 @@ display:block;
   
   .related-links li a svg{display:inline-block;}
   
+}
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    --bg-color: black;
+    --text-color: white;
+  }
 }
   
