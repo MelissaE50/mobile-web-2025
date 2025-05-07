@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body{
+  text-align: center;
+  background-color: #d6a5c1;
+  background-image: url("images/pawsBones2.jpg");
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+line-height: 1.5em;
+}
+
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #f381c5;
+	margin-top: 10px;
+	border: 2px solid #CCC;
+}
+
+#header h1 { 
+  text-align: center;
+  color:#ffffff;
+  text-shadow: 2px 2px #000000;
+  padding: 6em 2em;
+  width: 800px;
+  height: 240px;
+  
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+
+.card{
+    margin-bottom:2rem;
+  }
+  
+  header, footer{background: rgb(252, 187, 199);}
+  #content{background:lavenderblush;}
+  
+  
