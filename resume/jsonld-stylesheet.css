@@ -84,21 +84,6 @@ img {
   background: rgba(0, 0, 0, 0.15);
 }
 
-/* ------ Helper Classes -------*/
-/* ------ visually hidden will hide content from seeing users but will still be accessible to screen readers -------*/
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; /* 1 */
-}
-
-
 /* ------ Global Styles -------*/
 
 body {
@@ -182,7 +167,7 @@ main h1:before {
 main h1:after {
   margin-left: 5px;
 }
-main h2{
+main h4{
   display:contents;
   justify-content:center;
   padding:0;
@@ -324,7 +309,7 @@ main.container{
  .related-links{
   grid-area:related;
   border-bottom:1px solid #999;
-  padding-bottom:50px
+  padding-bottom:50px;
 }   
 }
 
@@ -363,7 +348,7 @@ main.container{
    .related-links{
     grid-area:related;
     border-bottom:1px solid #999;
-    padding-bottom:50px
+    padding-bottom:50px;
   } 
     
 }
@@ -382,8 +367,7 @@ main.container{
       "title title"
       "about about"
       "skills experience"
-      "volunteer education"
-      ;  
+      "volunteer education";  
     } 
     
   #about{
@@ -404,7 +388,7 @@ main.container{
    .related-links{
     grid-area:related;
     border-bottom:1px solid #999;
-    padding-bottom:50px
+    padding-bottom:50px;
   } 
     
 
