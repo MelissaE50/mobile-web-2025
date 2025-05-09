@@ -31,7 +31,7 @@ main{
 header.primary{
   background: pink;
   grid-column: 1 / 9;
-  grid-row: 1 / 2;
+  grid-row: 1 / 2; /*establish rows of the grid*/
 }
 
 #content{
@@ -42,19 +42,45 @@ header.primary{
   grid-template-rows: subgrid;
 }
 
-footer.primary{
+footer{
   background: pink;
   grid-column: 1 / 9;
   grid-row: 3 / 4;
 }
 
 #blog{
-  background: rgba(0, 0, 0, 0.6);
+  background: lavenderblush;
   grid-column: 1 / 6;
 }
 
 aside{
   background: pink;
   grid-column: 6 / 9;
+}
+
+/*media queries*/ 
+@media screen and (min-width:400px){
+  main{
+    background: lavender;
+    width:30vw;
+  }
+  main > *{
+  float:none;  
+  }
+}
+
+@media screen and (min-width:800px){
+  main{
+    background:peachpuff;
+    width:60vw;
+  }
+}
+
+@media screen and (min-width:960px){
+  main{
+    background:cornsilk;
+    width:80vw;
+  }
+  
 }
 
