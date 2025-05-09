@@ -18,31 +18,43 @@ html {
 }
 
 main{
-  max-width:960px;
+  max-width:80vw;
+  display:grid;
+  grid-template-columns: repeat(8, [col-] 1fr); /*8 columns*/
+  grid-template-rows:auto;
+  margin:auto;
+  gap:20px; /*gutter*/
   border:1px solid #000;
-  margin:20px auto;
- /* background-image: url("https://assets.codepen.io/7248/grid-1.png");*/
+  padding:20px;
 }
 
-header.primary, #colophon{
-   background: rgba(0, 0, 0, 0.4);
-   width: 95.83%;
-   margin: 2.0833%;
-   padding:20px;
-   float: left;
+header.primary{
+  background: pink;
+  grid-column: 1 / 9;
+  grid-row: 1 / 2;
+}
+
+#content{
+  grid-column: 1 / 9;
+  grid-row: 2 / 3;
+  display:grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+footer.primary{
+  background: pink;
+  grid-column: 1 / 9;
+  grid-row: 3 / 4;
 }
 
 #blog{
-  background: rgba(0, 0, 0, 0.6); 
-  width: 66.4583%;
-  margin-left: 2.0833%;
-  float:left;
+  background: rgba(0, 0, 0, 0.6);
+  grid-column: 1 / 6;
 }
 
 aside{
-  background: rgba(0, 0, 0, 0.3);
-  width: 27.2916%;
-  margin-left: 2.0833%;
-  float:left;
-  
+  background: pink;
+  grid-column: 6 / 9;
 }
+
