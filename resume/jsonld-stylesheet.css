@@ -182,27 +182,21 @@ main h1:before {
 main h1:after {
   margin-left: 5px;
 }
-
-dl {
-  display: grid;
-  /*shorthand*/
-  grid-template: repeat(8, auto) / 8em 1fr;
-  font-size:1rem;
+main h2{
+  display:contents;
+  justify-content:center;
+  padding:0;
+  gap:20px;
 }
 
-dt {
-  font-weight: 800;
-  grid-column: 1;
-  padding: 20px 0;
-  border-bottom: 1px solid var(--accent-color-1);
+.bio{
+  display:contents;
+  justify-content:center;
+  padding:0;
+  gap:20px;
 }
-dd {
-  margin: 0;
-  grid-column: 2;
-  padding: 20px 0;
-  border-bottom: 1px solid var(--accent-color-1);
-}
-
+ 
+ 
 .related-links {
   display: flex;
   justify-content: center;
@@ -416,29 +410,4 @@ main.container{
 
 }
 
-/*----------------------Edge Case Tweaks-----------------------*/
 
-@media only screen and (max-width: 460px) {
-  .related-links li a svg{display:none;}
-  
-}
-
-@media only screen and (max-width: 395px) {
-.related-links{
-flex-direction:column;
-  }
-  
-.related-links a{
-display:block;
-  }  
-  
-  .related-links li a svg{display:inline-block;}
-  
-}
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    --bg-color: black;
-    --text-color: white;
-  }
-}
-  
