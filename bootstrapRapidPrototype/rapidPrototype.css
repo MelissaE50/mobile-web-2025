@@ -16,7 +16,9 @@ body{
 line-height: 1.5em;
 }
 
-
+#nav{
+  background-color: #d6a5c1;
+}
 #container {
 	max-width: 800px;
 	margin-right: auto;
@@ -27,6 +29,15 @@ line-height: 1.5em;
 	border: 2px solid #CCC;
 }
 
+#content {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #f381c5;
+	margin-top: 10px;
+	border: 2px solid #CCC;
+}
 #header h1 { 
   text-align: center;
   color:rgb(231, 173, 183);
@@ -34,20 +45,18 @@ line-height: 1.5em;
   padding: 6em 2em;
   width: 800px;
   height: 240px;
-  
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
 }
 
 #footer h6 {
+  text-align: left;
 	font-size: 10px;
 	line-height: 25px;
 	margin-right: 20px;
 	margin-left: 20px;
 }
-
-
 
 .card{
     margin-bottom:2rem;
