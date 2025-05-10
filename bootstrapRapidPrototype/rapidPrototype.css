@@ -16,6 +16,7 @@ body{
 line-height: 1.5em;
 }
 
+
 #container {
 	max-width: 800px;
 	margin-right: auto;
@@ -28,7 +29,7 @@ line-height: 1.5em;
 
 #header h1 { 
   text-align: center;
-  color:#ffffff;
+  color:rgb(231, 173, 183);
   text-shadow: 2px 2px #000000;
   padding: 6em 2em;
   width: 800px;
