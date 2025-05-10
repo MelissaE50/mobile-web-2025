@@ -16,6 +16,11 @@ body{
 line-height: 1.5em;
 }
 
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 #nav{
   background-color: #d6a5c1;
 }

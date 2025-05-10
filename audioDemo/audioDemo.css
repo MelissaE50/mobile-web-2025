@@ -1,15 +1,26 @@
-.audio-container {
-    position: relative;
-    max-width: 720px;
-    margin: 20px auto;
-    background: blueviolet;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  audio {
-    width: 100%;
-    display: block;
-  }
-  
-  
+body {
+  display:block;
+	font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}  
+
+article {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	background-color: lightslategray;
+}
+header h1 {
+	background-color: whitesmoke;
+	color: rgb(90, 89, 89);
+	padding: 8px;
+	text-align: center;
+}
+
+article h2, audio {
+  color: white;
+	padding: 20px;
+	margin-bottom: 24px;
+}
