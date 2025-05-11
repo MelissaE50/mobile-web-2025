@@ -69,30 +69,18 @@ img {
   max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
-	text-align: left;
+	text-align: center;
 	background-color: lavenderblush;
 	margin-top: 10px;
 	border: 2px solid dark slategray;
   margin-bottom:2rem;
 }
 
-#footer h6 {
-  text-align: left;
-  background: lavenderblush;
-	font-size: 10px;
-	line-height: 25px;
-	margin-right: 20px;
-	margin-left: 20px;
-}
+
 footer.container{
   background: lavenderblush;
 }
 
-.card{
-    margin-bottom:2rem;
-  }
-  
-  
   
   /* Media Queries for breakpoints*/
 
