@@ -28,7 +28,8 @@ img {
 	text-align: left;
 	background-color: #f381c5;
 	margin-top: 10px;
-	border: 2px solid #CCC;
+	border: 2px solid dark slategray;
+  margin-bottom:2rem;
 }
 
 #content {
@@ -36,10 +37,23 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	background-color: #f381c5;
+	background:lavenderblush;
 	margin-top: 10px;
-	border: 2px solid #CCC;
+	border: 2px solid darkslategray;
+  margin-bottom:2rem;
 }
+
+.card{
+    margin-bottom:2rem;
+  }
+
+.card-body {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: lavenderblush;
+}
+
 #header h1 { 
   text-align: center;
   color:rgb(231, 173, 183);
@@ -64,9 +78,8 @@ img {
     margin-bottom:2rem;
   }
   
-  header, footer{background: rgb(252, 187, 199);}
-  #content{background:lavenderblush;}
-
+  header, footer{background: lavenderblush;}
+  
   /* Media Queries for breakpoints*/
 
   
