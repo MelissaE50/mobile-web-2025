@@ -21,9 +21,6 @@ img {
   block-size: auto;
 }
 
-nav{
-  background-color: #d6a5c1;
-}
 #container {
 	max-width: 800px;
 	margin-right: auto;
@@ -70,7 +67,9 @@ nav{
   header, footer{background: rgb(252, 187, 199);}
   #content{background:lavenderblush;}
 
-  /* Media Queries */
+  /* Media Queries for breakpoints*/
+
+  
 
 
   
