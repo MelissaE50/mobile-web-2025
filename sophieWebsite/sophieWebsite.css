@@ -19,6 +19,9 @@ img {
   max-inline-size: 100%;
   block-size: auto;
 }
+footer, header{
+  background: lavenderblush;
+}
 
 #container {
 	max-width: 800px;
@@ -77,14 +80,22 @@ img {
 }
 
 
-footer.container{
-  background: lavenderblush;
-}
-
-  
   /* Media Queries for breakpoints*/
 
-  
+/* Media Query for mobile*/
+  @media screen and (max-width: 599px){
+
+  }
+
+  /* Media Query for tablet*/
+   @media screen and (min-width: 600px){
+
+  }
+
+  /* Media Query for desktop*/
+   @media screen and (max-width: 1024px){
+
+  }
 
 
   
