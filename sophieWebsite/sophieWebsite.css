@@ -23,6 +23,7 @@ footer, header{
   background: lavenderblush;
 }
 
+
 #container {
 	max-width: 800px;
 	margin-right: auto;
@@ -46,7 +47,7 @@ footer, header{
 }
 
 .card{
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
   }
 
 .card-body {
@@ -82,7 +83,7 @@ footer, header{
 
   /* Media Queries for breakpoints*/
 
-/* Media Query for mobile*/
+  /* Media Query for mobile*/
   @media screen and (max-width: 599px){
     body{
       font-size: 14px;
@@ -98,58 +99,60 @@ footer, header{
     }
 
     #container {
-	    max-width: 100%;
+	    width: 100%;
+      max-width: 100%;
       border-width: 1px;
     }
 
     #content {
 	    max-width: 100%;
-      border-width: 100%;
+      border-width: 1px;
     }
 
-    .carousel.inner {
+    .carousel-inner {
 	    max-width: 100%;
       border-width: 1px;
     }
+
+    
 
   }
 
   /* Media Query for tablet*/
    @media screen and (min-width: 600px){
-body{
+    body{
       font-size: 15px;
       background-size: cover;
       padding: 0 2em;
     }
 
     #header h1 { 
-      font-size: 2.5rem;
+      font-size: 2rem;
       padding: 4em 1em;
       width: 100%;
       height: Auto;
     }
 
     #container {
-	    max-width: 95%;
-      border-width: 1px;
+	    width: 95%;
+      max-width: 95%;
     }
 
     #content {
-	    max-width: 95%;
-      border-width: 100%;
+	    width: 95%;
+      max-width: 95%;
     }
 
-    .carousel.inner {
-	    max-width: 95%;
-      border-width: 1px;
+    .carousel-inner {
+	    width: 95%;
+      max-width: 95%;
     }
   }
 
   /* Media Query for desktop*/
-   @media screen and (max-width: 1024px){
-body{
+  @media screen and (max-width: 1024px){
+    body{
       font-size: 16px;
-      background-size: cover;
     }
 
     #header h1 { 
@@ -161,13 +164,15 @@ body{
 
     #container {
 	    max-width: 100%;
+      border-width: 1px;
     }
 
     #content {
 	    max-width: 100%;
+      border-width: 1px;
     }
 
-    .carousel.inner {
+    .carousel-inner {
 	    max-width: 100%;
     }
   }
