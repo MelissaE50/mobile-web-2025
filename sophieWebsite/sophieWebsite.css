@@ -42,7 +42,6 @@ footer, header{
 	margin-left: auto;
   font-size: large;
 	text-align: center;
-  
 	background:lavenderblush;
 	margin-top: 10px;
 	border: 2px solid darkslategray;
@@ -74,13 +73,10 @@ footer, header{
   overflow: hidden;
 }
 
-
-
 /*center and style carousel*/
 #carouselExample {
   margin: 0 auto;
   max-width: 400px;
-  
 }
 
 .carousel-inner {
@@ -122,10 +118,7 @@ footer, header{
     .carousel-inner {
 	    max-width: 100%;
       border-width: 1px;
-    }
-
-    
-
+    } 
   }
 
   /* Media Query for tablet*/
