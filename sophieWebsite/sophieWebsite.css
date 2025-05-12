@@ -84,17 +84,92 @@ footer, header{
 
 /* Media Query for mobile*/
   @media screen and (max-width: 599px){
+    body{
+      font-size: 14px;
+      background-size: cover;
+      padding: 0 1em;
+    }
+
+    #header h1 { 
+      font-size: 1.5rem;
+      padding: 2em 1em;
+      width: 100%;
+      height: Auto;
+    }
+
+    #container {
+	    max-width: 100%;
+      border-width: 1px;
+    }
+
+    #content {
+	    max-width: 100%;
+      border-width: 100%;
+    }
+
+    .carousel.inner {
+	    max-width: 100%;
+      border-width: 1px;
+    }
 
   }
 
   /* Media Query for tablet*/
    @media screen and (min-width: 600px){
+body{
+      font-size: 15px;
+      background-size: cover;
+      padding: 0 2em;
+    }
 
+    #header h1 { 
+      font-size: 2.5rem;
+      padding: 4em 1em;
+      width: 100%;
+      height: Auto;
+    }
+
+    #container {
+	    max-width: 95%;
+      border-width: 1px;
+    }
+
+    #content {
+	    max-width: 95%;
+      border-width: 100%;
+    }
+
+    .carousel.inner {
+	    max-width: 95%;
+      border-width: 1px;
+    }
   }
 
   /* Media Query for desktop*/
    @media screen and (max-width: 1024px){
+body{
+      font-size: 16px;
+      background-size: cover;
+    }
 
+    #header h1 { 
+      font-size: 2.5rem;
+      padding: 4em 1em;
+      width: 100%;
+      height: Auto;
+    }
+
+    #container {
+	    max-width: 100%;
+    }
+
+    #content {
+	    max-width: 100%;
+    }
+
+    .carousel.inner {
+	    max-width: 100%;
+    }
   }
 
 
